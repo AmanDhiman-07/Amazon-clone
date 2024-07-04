@@ -1,0 +1,403 @@
+* {
+    margin: 0;
+    font-family: Arial;
+    border: border-box;
+}
+
+body {
+    background-color: #e2e7e6;
+}
+
+.nav-bar {
+    background-color: #0f1111;
+    color: white;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.logo {
+    background-image: url('amazon_logo.png');
+    height: 50px;
+    width: 100px;
+    background-size: cover;
+}
+
+.nav-logo {
+    height: 50px;
+    width: 100px;
+}
+
+.border {
+    border: 1px soild transparent;
+
+}
+
+.border:hover {
+    border: 1px solid white;
+    box-shadow: 2px 3px 5px orange;
+}
+
+/* box2 */
+.address {
+    color: #cccccc;
+}
+
+.address-del {
+    font-size: 0.70rem;
+    margin-left: 15px;
+}
+
+.India {
+    font-weight: bold;
+    color: white;
+}
+
+.add-icon {
+    display: flex;
+}
+
+/* box3 */
+.search-nav {
+    display: flex;
+    justify-content: space-evenly;
+    width: 620px;
+    height: 40px;
+    border-radius: 4px;
+}
+
+.search-all {
+    background-color: #f3f3f3;
+    width: 50px;
+    text-align: center;
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+    border: none;
+    font-size: 0.75rem;
+    font-weight: bold;
+}
+
+.search-input {
+    width: 100%;
+    font-size: 1rem;
+    border: none;
+}
+
+.search-icon {
+    width: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2rem;
+    color: #0f1111;
+    background-color: rgb(246, 194, 25);
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+}
+
+/* flag-nav  box4*/
+.flag-nav {
+    display: flex;
+}
+
+.english-nav {
+    font-size: 0.75rem;
+    background-color: transparent;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border: none;
+    font-weight: bold;
+}
+
+/* box5 */
+span {
+    font-size: 0.7rem;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.nav-list {
+    background-color: transparent;
+    color: white;
+    border: none;
+    font-size: 0.79rem;
+    font-weight: 700;
+}
+
+/* box6 */
+.cart i {
+    font-size: 30px;
+}
+
+.cart {
+    font-size: 0.85rem;
+    font-weight: 700;
+}
+
+/* next box */
+
+.panell1 {
+    height: 40px;
+    background-color: rgba(29, 27, 27, 0.985);
+    display: flex;
+    justify-content: space-evenly;
+    color: white;
+    align-items: center;
+}
+
+.panell1:hover {
+    background-color: rgb(36, 122, 125);
+}
+
+.panel-el:hover {
+    color: black;
+}
+
+.panell1 {
+    font-size: 0.90rem;
+}
+
+.panel2 a {
+    color: white;
+    text-decoration: none;
+    margin: 10px;
+    padding-right: 10px;
+    font-size: 0.75rem;
+}
+
+.panel2 a:hover {
+    color: orange;
+}
+
+.panel2 {
+    width: 70%;
+}
+
+.panel3 a {
+    font-size: 0.70rem;
+    color: white;
+    text-decoration: none;
+    font-weight: 700;
+}
+
+.panel3 a:hover {
+    color: orangered;
+}
+
+.panel3 {
+    display: flex;
+    align-items: center;
+}
+
+.panel3-icon {
+    margin: 0.30rem;
+}
+
+/* hero section*/
+.box3 {
+    background-image: url('slide4.jpg');
+    height: 500px;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.box3-msg {
+    background-color: #cccccc;
+    color: #0f1111;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 90%;
+    margin-bottom: 25px;
+}
+
+.box3-msg a {
+    color: #007185;
+    text-decoration: none;
+    font-size: 0.75rem;
+    font-weight: 700;
+}
+
+.box3-msg p {
+    font-size: 0.85rem;
+    font-weight: 600;
+}
+
+/* shop-section */
+
+.box {
+    height: 400px;
+    width: 23%;
+    background-color: white;
+    padding: 20px 0px 15px;
+    margin-top: 15px;
+    box-shadow: 2px 4px 20px black;
+    border-radius: 20px;
+}
+
+.shop-section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.health-img {
+    background-image: url('box2_image.jpg');
+    height: 320px;
+    background-size: cover;
+    margin-top: 15px;
+}
+
+.health-img:hover {
+    box-shadow: 2px 1px 30px rgb(193, 135, 26);
+    transition: 1s;
+}
+
+.box-content {
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+
+.ancar-tag {
+    text-decoration: none;
+    margin: 2rem;
+    padding-right: 2rem;
+    display: flex;
+    color: darkgreen;
+    font-size: 0.85rem;
+    font-weight: 700;
+}
+
+.ancar-tag:hover {
+    color: tomato;
+}
+
+/* sign */
+.sign {
+    background-color: azure;
+    height: 130px;
+    margin-left: 0.70rem;
+    margin-right: 0.70rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.sign {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.sign-button {
+    height: 2rem;
+    width: 200px;
+    margin-left: 20px;
+    background-color: rgb(243, 187, 4);
+    font-size: 0.85rem;
+    font-weight: 800;
+    border-radius: 5px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.sign-button:hover {
+    background-color: slateblue;
+    transition: 2s;
+}
+
+.customer {
+    margin-right: 10px;
+    padding: 7px;
+    text-align: center;
+    font-size: 0.70rem;
+}
+
+.under-sign p a {
+    text-decoration: none;
+}
+
+/* back to top */
+.back {
+    background-color: rgb(43, 67, 111);
+    height: 500px;
+}
+
+.back {
+    background-color: #1d444b;
+    margin-top: 10px;
+    padding: 7px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.under-back {
+    font-weight: 800;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #0f1111;
+    text-decoration: none;
+}
+
+.under-back:hover {
+    color: orange;
+}
+
+.back:hover {
+    background-color: khaki;
+    transition: 1s;
+}
+
+/* get section */
+.get-section {
+    background-color: #07193f;
+    height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.under-one a {
+    color: snow;
+    text-decoration: none;
+    margin: 50px;
+    font-weight: 700;
+}
+
+.under-one {
+    margin-bottom: 18rem;
+}
+
+.second-logo {
+    background-image: url('aman2.jpg');
+    height: 90px;
+    width: 200px;
+    background-size: cover;
+}
+
+.final {
+    background-color: #07193f;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+}
+
+.bottom {
+    background-color: #07193f;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.privacy a {
+    margin: 1rem;
+    font-size: 0.70rem;
+    text-decoration: none;
+    color: snow;
+    margin-bottom: 600px;
+}

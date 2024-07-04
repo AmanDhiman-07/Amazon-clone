@@ -1,0 +1,17 @@
+.grid-1{
+    background-color: violet;
+    height: 400px;
+    width: 500px;
+    display: grid;
+    row-gap: 50px;
+}
+.grid{
+    background-color: black;
+    color: white;
+    height: 90px;
+    width: 100px;
+}
+.grid-one{
+    grid-row-start: 1;
+    grid-row-end: 3;
+}
